@@ -1,0 +1,72 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+#weather-container {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+#cityInput {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    width: 45%;
+}
+
+#cityInput::placeholder {
+    color: #999;
+}
+
+#cityInput:focus {
+    outline: none;
+    border-color: #66afe9;
+}
+
+#getWeatherBtn {
+    padding: 5px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 23%;
+}
+
+#weather-icon {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+#temperature {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #343a40;
+}
+
+#description {
+    font-size: 18px;
+    color: #555;
+}
